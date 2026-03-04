@@ -52,7 +52,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Standort</h3>
             <div className="bg-gray-800 rounded-lg overflow-hidden h-48 mb-4">
               <iframe
-                src="https://www.openstreetmap.org/export/embed.html?bbox=19/46.945946/9.025424"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=9.024424%2C46.945446%2C9.026424%2C46.946446&layer=mapnik&marker=46.945946%2C9.025424"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
