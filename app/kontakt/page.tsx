@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -131,24 +131,6 @@ export default function KontaktPage() {
               </CardContent>
             </Card>
           </div>
-
-          <Card className="border-primary/10 shadow-lg mb-12">
-            <CardContent className="p-8">
-              <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
-                  <Clock className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-3">Öffnungszeiten</h3>
-                  <div className="text-gray-700">
-                    <p className="font-medium mb-1">Montag – Freitag:</p>
-                    <p>07:30 – 12:00 Uhr</p>
-                    <p>13:00 – 17:00 Uhr</p>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
 
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
