@@ -53,7 +53,7 @@ export default function KontrollenPage() {
               </p>
 
               <div className="bg-gray-50 rounded-lg p-8 mb-8">
-                <h3 className="text-2xl font-semibold mb-6">Kontrollperioden</h3>
+                <h3 className="text-2xl font-semibold mb-6">Kontrollperioden nach NIV 2018</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
@@ -77,6 +77,12 @@ export default function KontrollenPage() {
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                     <div>
                       <span className="font-medium text-lg">Anlagen mit starker Personenbelegung (Kino, Schulhäuser, grosse Hotels, Einkaufscenter)</span> – 5 Jahre
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <span className="font-medium text-lg">Altanlagen mit Nullung Schema III</span> – 5 Jahre
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

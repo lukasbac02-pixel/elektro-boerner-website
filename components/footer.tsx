@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="py-16 bg-gray-900 text-white">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
           <div>
             <div className="mb-6 w-full max-w-[200px]">
               <Image
@@ -20,7 +20,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Professionelle Elektroinstallationen, Kontrollen und Beratung für ein sicheres Zuhause. Seit 2011 Ihr zuverlässiger Partner im Glarnerland.
+              Professionelle Elektroinstallationen, Kontrollen und Beratung für ein sicheres Zuhause. Seit 2012 Ihr zuverlässiger Partner im Glarnerland.
             </p>
           </div>
 
@@ -38,22 +38,12 @@ export default function Footer() {
                 <a href="tel:0555503265" className="hover:text-white transition-colors">055 550 32 65</a>
               </div>
               <div className="flex items-center gap-2">
+                <Phone className="h-4 w-4 flex-shrink-0" />
+                <a href="tel:0796571746" className="hover:text-white transition-colors">079 657 17 46</a>
+              </div>
+              <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
                 <a href="mailto:elektro_boerner@bluewin.ch" className="hover:text-white transition-colors">elektro_boerner@bluewin.ch</a>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Öffnungszeiten</h3>
-            <div className="space-y-2 text-sm text-gray-300">
-              <div className="flex items-start gap-2">
-                <ClockIcon className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="font-medium">Montag – Freitag</p>
-                  <p>07:30 – 12:00 Uhr</p>
-                  <p>13:00 – 17:00 Uhr</p>
-                </div>
               </div>
             </div>
           </div>

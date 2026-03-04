@@ -51,7 +51,7 @@ export default function UeberMichPage() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mx-auto mb-4">
                   <Calendar className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold mb-2">35+ Jahre</h3>
+                <h3 className="font-semibold mb-2">40+ Jahre</h3>
                 <p className="text-gray-700">Erfahrung</p>
                 <p className="text-sm text-gray-600 mt-1">
                   als Elektroinstallateur
@@ -81,7 +81,7 @@ export default function UeberMichPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 leading-relaxed">
-                  Ich arbeite seit über 35 Jahren als Elektroinstallateur. Durch die langjährige Tätigkeit konnte ich viel Erfahrung sammeln und habe mich konstant weitergebildet. 2011 eröffnete ich als eidg. dipl. Elektroinstallateur mit Elektro Börner GmbH meine eigene Firma und beschäftigte zeitweise mehrere Mitarbeiter. Die Elektro Börner GmbH ist Ihr Elektroinstallateur nicht nur für Privatpersonen, sondern auch für Gewerbe und Industrie und für die öffentliche Hand.
+                  Ich arbeite seit über 40 Jahren als Elektroinstallateur. Durch die langjährige Tätigkeit konnte ich viel Erfahrung sammeln und habe mich konstant weitergebildet. 2012 eröffnete ich als eidg. dipl. Elektroinstallateur mit Elektro Börner GmbH meine eigene Firma und beschäftigte zeitweise mehrere Mitarbeiter. Die Elektro Börner GmbH ist Ihr Elektroinstallateur nicht nur für Privatpersonen, sondern auch für Gewerbe und Industrie und für die öffentliche Hand.
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
                   Ich werde in meiner Arbeit unterstützt von Karin Börner (Büro) und Sisach für die Buchhaltung. Je nach Auftragslage werden zusätzlich temporäre Mitarbeiter angestellt. Die Elektro Börner GmbH legt grossen Wert auf Qualität und Zuverlässigkeit. Das Unternehmen setzt auf moderne Technologien und innovative Lösungen, um den höchsten Ansprüchen gerecht zu werden.
@@ -101,7 +101,7 @@ export default function UeberMichPage() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex gap-3">
                       <span className="text-primary font-semibold min-w-[100px]">
-                        ab 2011
+                        ab 2012
                       </span>
                       <span>Geschäftsführer & Inhaber Elektro Börner GmbH</span>
                     </li>
@@ -113,36 +113,27 @@ export default function UeberMichPage() {
                     </li>
                     <li className="flex gap-3">
                       <span className="text-primary font-semibold min-w-[100px]">
-                        2012
+                        2006
                       </span>
-                      <span>Weiterbildung zum eidg. dipl. Elektroinstallateur</span>
+                      <span>Meisterprüfung zum eidg. dipl. Elektroinstallateur</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-primary font-semibold min-w-[100px]">
-                        2011
+                        2004
                       </span>
-                      <span>Weiterbildung zum Elektro-Projektleiter Installation und Sicherheit</span>
+                      <span>Weiterbildung zum Telematiker</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-primary font-semibold min-w-[100px]">
-                        2009
+                        2001
                       </span>
                       <span>Weiterbildung zum Elektro-Sicherheitsberater</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-primary font-semibold min-w-[100px]">
-                        2007
+                        1981–1984
                       </span>
-                      <span>Weiterbildung zum Elektro-Installateur/Teamleiter</span>
-                    </li>
-                    <li className="flex gap-3">
-                      <span className="text-primary font-semibold min-w-[100px]">
-                        2004–2006
-                      </span>
-                      <span>
-                        Ausbildung Elektroinstallateur, Gewerbliche
-                        Berufsschule Wetzikon
-                      </span>
+                      <span>Ausbildung zum Elektroinstallateur in Deutschland</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -158,7 +149,7 @@ export default function UeberMichPage() {
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                      VSEI
+                      EIT.swiss
                     </span>
                     <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
                       electrosuisse

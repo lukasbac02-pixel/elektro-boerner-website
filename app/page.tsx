@@ -83,7 +83,7 @@ export default function HomePage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl mb-8 leading-relaxed drop-shadow-2xl"
           >
-            Professionelle Elektroinstallationen, Kontrollen und Beratung für ein sicheres Zuhause. Seit 2011 Ihr zuverlässiger Partner im Glarnerland.
+            Professionelle Elektroinstallationen, Kontrollen und Beratung für ein sicheres Zuhause. Seit 2012 Ihr zuverlässiger Partner im Glarnerland.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -110,7 +110,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Meine Dienstleistungen</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ich arbeite seit über 35 Jahren als Elektroinstallateur. Durch die langjährige Tätigkeit konnte ich viel Erfahrung sammeln und habe mich konstant weitergebildet.
+              Ich arbeite seit über 40 Jahren als Elektroinstallateur. Durch die langjährige Tätigkeit konnte ich viel Erfahrung sammeln und habe mich konstant weitergebildet.
             </p>
           </div>
 
@@ -198,16 +198,16 @@ export default function HomePage() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Über mich</h2>
               <h3 className="text-2xl font-semibold text-primary mb-4">Stefan Börner</h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Eidg. dipl. Elektroinstallateur mit über 35 Jahren Erfahrung
+                Eidg. dipl. Elektroinstallateur mit über 40 Jahren Erfahrung
               </p>
               <ul className="space-y-3 text-gray-700 mb-8">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Geschäftsführer & Inhaber Elektro Börner GmbH seit 2011</span>
+                  <span>Geschäftsführer & Inhaber Elektro Börner GmbH seit 2012</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Mitglied bei VSEI, electrosuisse und eev</span>
+                  <span>Mitglied bei EIT.swiss, electrosuisse und eev</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>

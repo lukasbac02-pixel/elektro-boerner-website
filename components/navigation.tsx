@@ -53,8 +53,7 @@ export function Navigation() {
             ))}
 
             <div className="relative group">
-              <Link
-                href="/dienstleistungen"
+              <button
                 className={`text-sm font-medium transition-colors flex items-center gap-1 ${
                   pathname.startsWith("/dienstleistungen")
                     ? "text-gray-900"
@@ -62,8 +61,8 @@ export function Navigation() {
                 }`}
               >
                 Dienstleistungen
-                <ChevronDown className="h-4 w-4" />
-              </Link>
+                <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
+              </button>
 
               <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-200 absolute top-full left-0 pt-2">
                 <div className="w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2">

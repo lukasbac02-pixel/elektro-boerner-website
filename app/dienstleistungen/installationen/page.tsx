@@ -113,51 +113,12 @@ export default function InstallationenPage() {
               <CardContent className="p-8">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
-                    <Lightbulb className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">Beleuchtung</h3>
-                    <p className="text-gray-700">
-                      Beratung und Installation fortschrittlicher Beleuchtungslösungen,
-                      um sowohl Funktionalität als auch Ästhetik in Ihrem Umfeld zu
-                      verbessern.
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-primary/20 shadow-lg">
-              <CardContent className="p-8">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
-                    <Flame className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">
-                      Alarm- und Brandmeldeanlagen
-                    </h3>
-                    <p className="text-gray-700">
-                      Professionelle Installation von Sicherheits- und
-                      Brandmeldesystemen, um Ihr Eigentum vor potenziellen Gefahren zu
-                      schützen.
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-primary/20 shadow-lg">
-              <CardContent className="p-8">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
                     <Sun className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Photovoltaik</h3>
+                    <h3 className="text-xl font-semibold mb-2">Photovoltaik und E-Auto Ladestation</h3>
                     <p className="text-gray-700">
-                      Installation von Solaranlagen zur Nutzung von Sonnenenergie, um
-                      Nachhaltigkeit zu fördern und Energiekosten zu senken.
+                      Installation von Solaranlagen zur Nutzung von Sonnenenergie und Heimladestationen für Elektrofahrzeuge. Bei grösseren Projekten werden Partner beigezogen.
                     </p>
                   </div>
                 </div>
@@ -168,16 +129,12 @@ export default function InstallationenPage() {
               <CardContent className="p-8">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
-                    <Zap className="h-6 w-6 text-primary" />
+                    <Lightbulb className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">
-                      E-Auto Ladestation
-                    </h3>
+                    <h3 className="text-xl font-semibold mb-2">Beleuchtung und Alarm- und Brandmeldeanlagen</h3>
                     <p className="text-gray-700">
-                      Beratung und Installation von Heimladestationen für
-                      Elektrofahrzeuge, um eine bequeme und effiziente Ladelösung zu
-                      gewährleisten.
+                      Beratung und Installation fortschrittlicher Beleuchtungslösungen sowie professionelle Installation von Sicherheits- und Brandmeldesystemen.
                     </p>
                   </div>
                 </div>
