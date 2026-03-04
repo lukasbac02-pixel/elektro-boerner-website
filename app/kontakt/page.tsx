@@ -8,7 +8,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Navigation } from "@/components/navigation";
-import Footer from "@/components/footer";
 
 export default function KontaktPage() {
   const [formData, setFormData] = useState({
@@ -190,8 +189,6 @@ export default function KontaktPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }
