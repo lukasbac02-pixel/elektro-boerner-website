@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Home, Lightbulb, Building, Flame, Sun, Zap, ShieldCheck, Eye } from "lucide-react";
+import { Chrome as Home, Lightbulb, Building, Flame, Sun, Zap, ShieldCheck, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Footer from "@/components/footer";

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Shield, CheckCircle, AlertTriangle } from "lucide-react";
+import { Shield, CircleCheck as CheckCircle, TriangleAlert as AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Footer from "@/components/footer";

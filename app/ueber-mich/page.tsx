@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Award, Building2, Calendar, MapPin, CheckCircle } from "lucide-react";
+import { Award, Building2, Calendar, MapPin, CircleCheck as CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Footer from "@/components/footer";
