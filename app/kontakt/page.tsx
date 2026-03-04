@@ -166,7 +166,7 @@ export default function KontaktPage() {
               <Card className="border-primary/10 shadow-lg overflow-hidden">
                 <CardContent className="p-0">
                   <iframe
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=9.017%2C46.967%2C9.037%2C46.977&layer=mapnik&marker=46.972%2C9.027"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=9.023%2C46.944%2C9.028%2C46.948&layer=mapnik&marker=46.945946%2C9.025424"
                     width="100%"
                     height="450"
                     style={{ border: 0 }}
@@ -177,7 +177,7 @@ export default function KontaktPage() {
               </Card>
               <div className="mt-4">
                 <a
-                  href="https://www.openstreetmap.org/?mlat=46.972&mlon=9.027#map=15/46.972/9.027"
+                  href="https://www.openstreetmap.org/#map=19/46.945946/9.025424"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"
