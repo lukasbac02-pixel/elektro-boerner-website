@@ -5,51 +5,13 @@ import Link from "next/link";
 import { Chrome as Home, Lightbulb, Building, Flame, Sun, Zap, ShieldCheck, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Navigation } from "@/components/navigation";
 import Footer from "@/components/footer";
 
 export default function InstallationenPage() {
   return (
     <div className="min-h-screen bg-white">
-      <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
-        <div className="container mx-auto max-w-7xl px-6">
-          <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex items-center gap-3">
-              <Image
-                src="/logo_boerner.png"
-                alt="Elektro Börner Logo"
-                width={180}
-                height={60}
-                className="h-12 w-auto"
-              />
-            </Link>
-            <nav className="hidden md:flex items-center gap-8">
-              <Link
-                href="/"
-                className="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
-              >
-                Startseite
-              </Link>
-              <Link
-                href="/ueber-mich"
-                className="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
-              >
-                Über mich
-              </Link>
-              <Link
-                href="/dienstleistungen"
-                className="text-sm font-medium text-gray-900 hover:text-primary transition-colors"
-              >
-                Dienstleistungen
-              </Link>
-              <Link href="/kontakt">
-                <Button size="sm" className="bg-primary hover:bg-primary/90">
-                  Kontakt
-                </Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navigation />
 
       <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto max-w-6xl px-6">
