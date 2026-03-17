@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body className="font-sans antialiased">{children}<script defer src="https://analytics-dashboard-lb.netlify.app/tracker.js" data-tid="elbo01"></script></body>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
