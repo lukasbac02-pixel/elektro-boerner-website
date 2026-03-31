@@ -1,77 +1,74 @@
-"use client";
-
+import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { Award, Building2, Calendar, MapPin, CircleCheck as CheckCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import Footer from "@/components/footer";
-import { Navigation } from "@/components/navigation";
+import { FadeIn } from "@/components/motion/fade-in";
+import { StaggerChildren } from "@/components/motion/stagger-children";
+
+export const metadata: Metadata = {
+  title: "Über Stefan Börner – Eidg. dipl. Elektroinstallateur seit 1984",
+  description:
+    "Stefan Börner – Eidg. dipl. Elektroinstallateur mit über 40 Jahren Erfahrung. Geschäftsführer & Inhaber der Elektro Börner GmbH in Betschwanden seit 2012.",
+};
 
 export default function UeberMichPage() {
   return (
-    <div className="min-h-screen bg-white">
-      <Navigation />
-
-      <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
-        <div className="container mx-auto max-w-6xl px-6">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
-              Über mich
-            </h1>
-            <div className="flex justify-center mb-8">
-              <Card className="border-primary/20 shadow-xl overflow-hidden w-full max-w-sm">
-                <div className="relative aspect-square">
-                  <Image src="/portrait.png" alt="Stefan Börner" fill className="object-cover" />
-                </div>
-              </Card>
-            </div>
-            <h2 className="text-2xl font-semibold text-primary mb-2">Stefan Börner</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Eidg. dipl. Elektroinstallateur
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Card className="border-primary/10 shadow-lg h-full">
-              <CardContent className="p-6 text-center h-full flex flex-col justify-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mx-auto mb-4">
-                  <Building2 className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold mb-2">Firma</h3>
-                <p className="text-gray-700">Elektro Börner GmbH</p>
-                <p className="text-sm text-gray-600 mt-1">
-                  Geschäftsführer & Inhaber
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-primary/10 shadow-lg h-full">
-              <CardContent className="p-6 text-center h-full flex flex-col justify-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mx-auto mb-4">
-                  <Calendar className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold mb-2">40+ Jahre</h3>
-                <p className="text-gray-700">Erfahrung</p>
-                <p className="text-sm text-gray-600 mt-1">
-                  als Elektroinstallateur
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-primary/10 shadow-lg h-full">
-              <CardContent className="p-6 text-center h-full flex flex-col justify-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mx-auto mb-4">
-                  <MapPin className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold mb-2">Standort</h3>
-                <p className="text-gray-700">Betschwanden</p>
-                <p className="text-sm text-gray-600 mt-1">Glarnerland</p>
-              </CardContent>
+    <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
+      <div className="container mx-auto max-w-6xl px-6">
+        <FadeIn className="text-center mb-16">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
+            Über mich
+          </h1>
+          <div className="flex justify-center mb-8">
+            <Card className="border-primary/20 shadow-xl overflow-hidden w-full max-w-sm">
+              <div className="relative aspect-square">
+                <Image src="/portrait.webp" alt="Stefan Börner" fill className="object-cover" />
+              </div>
             </Card>
           </div>
+          <h2 className="text-2xl font-semibold text-primary mb-2">Stefan Börner</h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Eidg. dipl. Elektroinstallateur
+          </p>
+        </FadeIn>
 
-          <div className="space-y-6">
+        <StaggerChildren className="grid md:grid-cols-3 gap-6 mb-12">
+          <Card className="border-primary/10 shadow-lg h-full">
+            <CardContent className="p-6 text-center h-full flex flex-col justify-center">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mx-auto mb-4">
+                <Building2 className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-semibold mb-2">Firma</h3>
+              <p className="text-gray-700">Elektro Börner GmbH</p>
+              <p className="text-sm text-gray-600 mt-1">Geschäftsführer & Inhaber</p>
+            </CardContent>
+          </Card>
+
+          <Card className="border-primary/10 shadow-lg h-full">
+            <CardContent className="p-6 text-center h-full flex flex-col justify-center">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mx-auto mb-4">
+                <Calendar className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-semibold mb-2">40+ Jahre</h3>
+              <p className="text-gray-700">Erfahrung</p>
+              <p className="text-sm text-gray-600 mt-1">als Elektroinstallateur</p>
+            </CardContent>
+          </Card>
+
+          <Card className="border-primary/10 shadow-lg h-full">
+            <CardContent className="p-6 text-center h-full flex flex-col justify-center">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mx-auto mb-4">
+                <MapPin className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-semibold mb-2">Standort</h3>
+              <p className="text-gray-700">Betschwanden</p>
+              <p className="text-sm text-gray-600 mt-1">Glarnerland</p>
+            </CardContent>
+          </Card>
+        </StaggerChildren>
+
+        <div className="space-y-6">
+          <FadeIn>
             <Card className="border-primary/10 shadow-lg">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -88,9 +85,11 @@ export default function UeberMichPage() {
                 </p>
               </CardContent>
             </Card>
+          </FadeIn>
 
-            <div className="grid lg:grid-cols-3 gap-6">
-              <Card className="border-primary/10 shadow-lg h-full lg:col-span-2">
+          <div className="grid lg:grid-cols-3 gap-6">
+            <FadeIn className="lg:col-span-2">
+              <Card className="border-primary/10 shadow-lg h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Building2 className="h-5 w-5 text-primary" />
@@ -100,46 +99,36 @@ export default function UeberMichPage() {
                 <CardContent>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex gap-3">
-                      <span className="text-primary font-semibold min-w-[100px]">
-                        ab 2012
-                      </span>
+                      <span className="text-primary font-semibold min-w-[100px]">ab 2012</span>
                       <span>Geschäftsführer & Inhaber Elektro Börner GmbH</span>
                     </li>
                     <li className="flex gap-3">
-                      <span className="text-primary font-semibold min-w-[100px]">
-                        2014–2018
-                      </span>
+                      <span className="text-primary font-semibold min-w-[100px]">2014–2018</span>
                       <span>Leiter Baustrom bei KLL Linthal</span>
                     </li>
                     <li className="flex gap-3">
-                      <span className="text-primary font-semibold min-w-[100px]">
-                        2006
-                      </span>
+                      <span className="text-primary font-semibold min-w-[100px]">2006</span>
                       <span>Meisterprüfung zum eidg. dipl. Elektroinstallateur</span>
                     </li>
                     <li className="flex gap-3">
-                      <span className="text-primary font-semibold min-w-[100px]">
-                        2004
-                      </span>
+                      <span className="text-primary font-semibold min-w-[100px]">2004</span>
                       <span>Weiterbildung zum Telematiker</span>
                     </li>
                     <li className="flex gap-3">
-                      <span className="text-primary font-semibold min-w-[100px]">
-                        2001
-                      </span>
+                      <span className="text-primary font-semibold min-w-[100px]">2001</span>
                       <span>Weiterbildung zum Elektro-Sicherheitsberater</span>
                     </li>
                     <li className="flex gap-3">
-                      <span className="text-primary font-semibold min-w-[100px]">
-                        1981–1984
-                      </span>
+                      <span className="text-primary font-semibold min-w-[100px]">1981–1984</span>
                       <span>Ausbildung zum Elektroinstallateur in Deutschland</span>
                     </li>
                   </ul>
                 </CardContent>
               </Card>
+            </FadeIn>
 
-              <Card className="border-primary/10 shadow-lg h-full lg:col-span-1">
+            <FadeIn delay={0.15} className="lg:col-span-1">
+              <Card className="border-primary/10 shadow-lg h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <CheckCircle className="h-5 w-5 text-primary" />
@@ -160,12 +149,10 @@ export default function UeberMichPage() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
+            </FadeIn>
           </div>
         </div>
-      </section>
-
-      <Footer />
-    </div>
+      </div>
+    </section>
   );
 }

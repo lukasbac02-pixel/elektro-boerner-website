@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 export function Navigation() {
@@ -94,6 +95,7 @@ export function Navigation() {
             className="md:hidden p-2"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Menu"
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? (
               <X className="h-6 w-6" />
@@ -103,9 +105,16 @@ export function Navigation() {
           </button>
         </div>
 
+        <AnimatePresence>
         {mobileMenuOpen && (
-          <div className="md:hidden pb-6">
-            <nav className="flex flex-col gap-4">
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+            className="md:hidden overflow-hidden"
+          >
+            <nav className="flex flex-col gap-4 pb-6">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -157,8 +166,9 @@ export function Navigation() {
                 </Button>
               </Link>
             </nav>
-          </div>
+          </motion.div>
         )}
+        </AnimatePresence>
       </div>
     </header>
   );
