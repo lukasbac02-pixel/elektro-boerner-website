@@ -11,10 +11,23 @@ export const metadata: Metadata = {
   title: "Elektroinstallationen Glarus – Photovoltaik, Ladestationen & mehr",
   description:
     "Elektroinstallationen, Photovoltaik, E-Auto Ladestationen, Beleuchtung und Alarmanlagen im Glarnerland. Jetzt Offerte anfragen – Elektro Börner GmbH.",
+  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen/installationen" },
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-boerner.ch" },
+    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-boerner.ch/dienstleistungen" },
+    { "@type": "ListItem", position: 3, name: "Installationen", item: "https://www.elektro-boerner.ch/dienstleistungen/installationen" },
+  ],
 };
 
 export default function InstallationenPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
     <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <FadeIn className="text-center mb-16">
@@ -148,5 +161,6 @@ export default function InstallationenPage() {
         </FadeIn>
       </div>
     </section>
+    </>
   );
 }

@@ -116,6 +116,9 @@ const jsonLd = {
     { "@type": "Organization", name: "electrosuisse" },
     { "@type": "Organization", name: "eev" },
   ],
+  image: `${CONTACT.website}/logo_boerner.png`,
+  paymentAccepted: "Cash, Bank Transfer, Invoice",
+  currenciesAccepted: "CHF",
   sameAs: [],
 };
 
@@ -140,7 +143,8 @@ export default function RootLayout({
           Zum Inhalt springen
         </a>
         <Navigation />
-        <form name="contact" data-netlify="true" hidden>
+        <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+          <input name="bot-field" />
           <input type="text" name="name" />
           <input type="email" name="email" />
           <input type="tel" name="phone" />

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Kontakt – Elektriker in Betschwanden & Umgebung",
   description:
     "Kontaktieren Sie Elektro Börner GmbH in Betschwanden GL. Telefon, E-Mail oder Kontaktformular – wir beraten Sie gerne zu Ihrem Elektroprojekt.",
+  alternates: { canonical: "https://www.elektro-boerner.ch/kontakt" },
 };
 
 export default function KontaktPage() {
@@ -97,6 +98,7 @@ export default function KontaktPage() {
                   style={{ border: 0 }}
                   loading="lazy"
                   title="Standort Elektro Börner"
+                  sandbox="allow-scripts allow-same-origin"
                 ></iframe>
               </CardContent>
             </Card>

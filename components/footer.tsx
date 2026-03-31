@@ -71,6 +71,7 @@ export default function Footer() {
                 style={{ border: 0 }}
                 loading="lazy"
                 title="Standort Elektro Börner"
+                sandbox="allow-scripts allow-same-origin"
               ></iframe>
             </div>
             <Link href="/kontakt">

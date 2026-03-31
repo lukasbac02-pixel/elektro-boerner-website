@@ -8,10 +8,23 @@ export const metadata: Metadata = {
   title: "Beratung & Planung – Elektroprojekte im Glarnerland",
   description:
     "Professionelle Beratung und Planung für Ihr Elektroprojekt im Glarnerland. Detailliertes Design, Kostenabschätzungen und individuelle Lösungen.",
+  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen/beratung-planung" },
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-boerner.ch" },
+    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-boerner.ch/dienstleistungen" },
+    { "@type": "ListItem", position: 3, name: "Beratung & Planung", item: "https://www.elektro-boerner.ch/dienstleistungen/beratung-planung" },
+  ],
 };
 
 export default function BeratungPlanungPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
     <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <FadeIn className="text-center mb-16">
@@ -74,5 +87,6 @@ export default function BeratungPlanungPage() {
         </FadeIn>
       </div>
     </section>
+    </>
   );
 }

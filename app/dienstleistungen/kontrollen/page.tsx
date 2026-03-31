@@ -9,10 +9,23 @@ export const metadata: Metadata = {
   title: "Elektrokontrolle Glarus – Periodische Prüfung nach NIV 2018",
   description:
     "Periodische Sicherheitskontrollen gemäss NIV 2018 im Glarnerland. Kontrollperioden für Wohnhäuser, Gewerbe und spezielle Anlagen. Jetzt anfragen.",
+  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen/kontrollen" },
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-boerner.ch" },
+    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-boerner.ch/dienstleistungen" },
+    { "@type": "ListItem", position: 3, name: "Kontrollen", item: "https://www.elektro-boerner.ch/dienstleistungen/kontrollen" },
+  ],
 };
 
 export default function KontrollenPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
     <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <FadeIn className="text-center mb-16">
@@ -100,5 +113,6 @@ export default function KontrollenPage() {
         </FadeIn>
       </div>
     </section>
+    </>
   );
 }

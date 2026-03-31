@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Über Stefan Börner – Eidg. dipl. Elektroinstallateur seit 1984",
   description:
     "Stefan Börner – Eidg. dipl. Elektroinstallateur mit über 40 Jahren Erfahrung. Geschäftsführer & Inhaber der Elektro Börner GmbH in Betschwanden seit 2012.",
+  alternates: { canonical: "https://www.elektro-boerner.ch/ueber-mich" },
 };
 
 export default function UeberMichPage() {
