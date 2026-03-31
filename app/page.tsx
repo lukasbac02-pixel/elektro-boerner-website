@@ -77,7 +77,7 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6 drop-shadow-2xl uppercase"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6 drop-shadow-2xl uppercase"
           >
             Ihr<br className="md:hidden" /> <span className="bg-gradient-to-r from-white via-red-500 to-white bg-clip-text text-transparent">Elektroinstallateur</span><br />
             in Glarus und<br className="md:hidden" /> Umgebung
@@ -114,7 +114,7 @@ export default function HomePage() {
       <section className="py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto max-w-7xl px-4 md:px-6">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Meine Dienstleistungen</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Meine Dienstleistungen</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Ich arbeite seit über 40 Jahren als Elektroinstallateur. Durch die langjährige Tätigkeit konnte ich viel Erfahrung sammeln und habe mich konstant weitergebildet.
             </p>
@@ -125,7 +125,7 @@ export default function HomePage() {
               const Icon = service.icon;
               const card = (
                 <Card className="border-primary/20 shadow-lg hover:shadow-xl transition-shadow flex flex-col h-full">
-                  <CardContent className="p-8 text-center flex flex-col flex-1">
+                  <CardContent className="p-4 md:p-8 text-center flex flex-col flex-1">
                     <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mx-auto mb-6">
                       <Icon className="h-8 w-8 text-primary" />
                     </div>

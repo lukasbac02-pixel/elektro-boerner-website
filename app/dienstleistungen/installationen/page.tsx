@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 export default function InstallationenPage() {
   return (
     <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto max-w-6xl px-6">
+      <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <FadeIn className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
             Installationen
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -40,7 +40,7 @@ export default function InstallationenPage() {
 
         <StaggerChildren className="grid md:grid-cols-2 gap-8 mb-16">
           <Card className="border-primary/20 shadow-lg">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <div className="flex items-start gap-4 mb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
                   <Home className="h-6 w-6 text-primary" />
@@ -57,7 +57,7 @@ export default function InstallationenPage() {
           </Card>
 
           <Card className="border-primary/20 shadow-lg">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <div className="flex items-start gap-4 mb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
                   <Building className="h-6 w-6 text-primary" />
@@ -74,7 +74,7 @@ export default function InstallationenPage() {
           </Card>
 
           <Card className="border-primary/20 shadow-lg">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <div className="flex items-start gap-4 mb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
                   <Sun className="h-6 w-6 text-primary" />
@@ -90,7 +90,7 @@ export default function InstallationenPage() {
           </Card>
 
           <Card className="border-primary/20 shadow-lg">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <div className="flex items-start gap-4 mb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
                   <Lightbulb className="h-6 w-6 text-primary" />
@@ -106,7 +106,7 @@ export default function InstallationenPage() {
           </Card>
 
           <Card className="border-primary/20 shadow-lg">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <div className="flex items-start gap-4 mb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
                   <ShieldCheck className="h-6 w-6 text-primary" />
@@ -124,7 +124,7 @@ export default function InstallationenPage() {
           </Card>
 
           <Card className="border-primary/20 shadow-lg">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <div className="flex items-start gap-4 mb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 flex-shrink-0">
                   <Eye className="h-6 w-6 text-primary" />

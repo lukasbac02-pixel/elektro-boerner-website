@@ -40,6 +40,10 @@
   html {
     scroll-behavior: smooth;
   }
+  h1, h2, h3, h4 {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-google-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;

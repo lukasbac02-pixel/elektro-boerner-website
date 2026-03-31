@@ -46,9 +46,9 @@ const services = [
 export default function DienstleistungenPage() {
   return (
     <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto max-w-6xl px-6">
+      <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <FadeIn className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
             Dienstleistungen
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -59,7 +59,7 @@ export default function DienstleistungenPage() {
 
         <FadeIn>
         <Card className="border-primary/20 shadow-lg bg-gradient-to-br from-white to-primary/5 mb-16">
-          <CardContent className="p-8">
+          <CardContent className="p-4 md:p-8">
             <h2 className="text-2xl font-bold mb-4">
               Ist Ihre Elektroinstallation fit für die Zukunft?
             </h2>

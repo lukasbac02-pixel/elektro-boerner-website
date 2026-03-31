@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 export default function TelefonInternetPage() {
   return (
     <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto max-w-6xl px-6">
+      <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <FadeIn className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Telefon und Internet</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Telefon und Internet</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">Dienstleistungen für Telefon- und Internetsysteme</p>
         </FadeIn>
 

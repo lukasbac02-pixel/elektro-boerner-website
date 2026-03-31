@@ -43,6 +43,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: CONTACT.website,
   },
+  icons: {
+    icon: "/favicon_elektro_boerner.png",
+    apple: "/favicon_elektro_boerner.png",
+  },
 };
 
 const jsonLd = {
