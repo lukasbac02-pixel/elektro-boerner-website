@@ -11,16 +11,16 @@ export const metadata: Metadata = {
   title: "Elektroinstallationen Glarus – Photovoltaik, Ladestationen & mehr",
   description:
     "Elektroinstallationen, Photovoltaik, E-Auto Ladestationen, Beleuchtung und Alarmanlagen im Glarnerland. Jetzt Offerte anfragen – Elektro Börner GmbH.",
-  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen/installationen" },
+  alternates: { canonical: "https://www.elektro-börner.ch/dienstleistungen/installationen" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-boerner.ch" },
-    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-boerner.ch/dienstleistungen" },
-    { "@type": "ListItem", position: 3, name: "Installationen", item: "https://www.elektro-boerner.ch/dienstleistungen/installationen" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-börner.ch" },
+    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-börner.ch/dienstleistungen" },
+    { "@type": "ListItem", position: 3, name: "Installationen", item: "https://www.elektro-börner.ch/dienstleistungen/installationen" },
   ],
 };
 

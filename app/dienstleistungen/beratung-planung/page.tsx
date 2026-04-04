@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   title: "Beratung & Planung – Elektroprojekte im Glarnerland",
   description:
     "Professionelle Beratung und Planung für Ihr Elektroprojekt im Glarnerland. Detailliertes Design, Kostenabschätzungen und individuelle Lösungen.",
-  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen/beratung-planung" },
+  alternates: { canonical: "https://www.elektro-börner.ch/dienstleistungen/beratung-planung" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-boerner.ch" },
-    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-boerner.ch/dienstleistungen" },
-    { "@type": "ListItem", position: 3, name: "Beratung & Planung", item: "https://www.elektro-boerner.ch/dienstleistungen/beratung-planung" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-börner.ch" },
+    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-börner.ch/dienstleistungen" },
+    { "@type": "ListItem", position: 3, name: "Beratung & Planung", item: "https://www.elektro-börner.ch/dienstleistungen/beratung-planung" },
   ],
 };
 

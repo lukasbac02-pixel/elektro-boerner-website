@@ -10,16 +10,16 @@ export const metadata: Metadata = {
   title: "Telefon & Internet – Netzwerk & Telematik im Glarnerland",
   description:
     "Telefon- und Internetinstallationen, Hausanlagen und kleine Büronetzwerke im Glarnerland. Zuverlässige Telematik-Lösungen – Elektro Börner GmbH.",
-  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen/telefon-internet" },
+  alternates: { canonical: "https://www.elektro-börner.ch/dienstleistungen/telefon-internet" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-boerner.ch" },
-    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-boerner.ch/dienstleistungen" },
-    { "@type": "ListItem", position: 3, name: "Telefon & Internet", item: "https://www.elektro-boerner.ch/dienstleistungen/telefon-internet" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-börner.ch" },
+    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-börner.ch/dienstleistungen" },
+    { "@type": "ListItem", position: 3, name: "Telefon & Internet", item: "https://www.elektro-börner.ch/dienstleistungen/telefon-internet" },
   ],
 };
 

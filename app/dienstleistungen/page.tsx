@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Dienstleistungen – Elektroinstallation & Kontrollen im Glarnerland",
   description:
     "Elektroinstallationen, Beratung & Planung, periodische Kontrollen und Telematik im Glarnerland. Über 40 Jahre Erfahrung – Elektro Börner GmbH.",
-  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen" },
+  alternates: { canonical: "https://www.elektro-börner.ch/dienstleistungen" },
 };
 
 const services = [

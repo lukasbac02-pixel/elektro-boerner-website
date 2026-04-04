@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Über Stefan Börner – Eidg. dipl. Elektroinstallateur seit 1984",
   description:
     "Stefan Börner – Eidg. dipl. Elektroinstallateur mit über 40 Jahren Erfahrung. Geschäftsführer & Inhaber der Elektro Börner GmbH in Betschwanden seit 2012.",
-  alternates: { canonical: "https://www.elektro-boerner.ch/ueber-mich" },
+  alternates: { canonical: "https://www.elektro-börner.ch/ueber-mich" },
 };
 
 export default function UeberMichPage() {
@@ -138,15 +138,15 @@ export default function UeberMichPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                    <a href="https://www.eit.swiss/de/" target="_blank" rel="noopener noreferrer" className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium hover:bg-primary/20 transition-colors">
                       EIT.swiss
-                    </span>
-                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                    </a>
+                    <a href="https://www.electrosuisse.ch/de/" target="_blank" rel="noopener noreferrer" className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium hover:bg-primary/20 transition-colors">
                       electrosuisse
-                    </span>
-                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                    </a>
+                    <a href="https://www.eev.ch/de/" target="_blank" rel="noopener noreferrer" className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium hover:bg-primary/20 transition-colors">
                       eev
-                    </span>
+                    </a>
                   </div>
                 </CardContent>
               </Card>

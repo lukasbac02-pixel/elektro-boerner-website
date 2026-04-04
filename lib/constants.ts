@@ -12,7 +12,7 @@ export const CONTACT = {
     { display: "079 904 69 43", href: "tel:+41799046943" },
   ],
   email: "elektro_boerner@bluewin.ch",
-  website: "https://www.elektro-boerner.ch",
+  website: "https://www.elektro-börner.ch",
   geo: {
     latitude: 46.945946,
     longitude: 9.025424,

@@ -32,4 +32,4 @@ Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
 
-Sitemap: https://www.elektro-boerner.ch/sitemap.xml
+Sitemap: https://www.elektro-börner.ch/sitemap.xml

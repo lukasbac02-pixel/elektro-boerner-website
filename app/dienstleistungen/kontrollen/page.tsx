@@ -9,16 +9,16 @@ export const metadata: Metadata = {
   title: "Elektrokontrolle Glarus – Periodische Prüfung nach NIV 2018",
   description:
     "Periodische Sicherheitskontrollen gemäss NIV 2018 im Glarnerland. Kontrollperioden für Wohnhäuser, Gewerbe und spezielle Anlagen. Jetzt anfragen.",
-  alternates: { canonical: "https://www.elektro-boerner.ch/dienstleistungen/kontrollen" },
+  alternates: { canonical: "https://www.elektro-börner.ch/dienstleistungen/kontrollen" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-boerner.ch" },
-    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-boerner.ch/dienstleistungen" },
-    { "@type": "ListItem", position: 3, name: "Kontrollen", item: "https://www.elektro-boerner.ch/dienstleistungen/kontrollen" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.elektro-börner.ch" },
+    { "@type": "ListItem", position: 2, name: "Dienstleistungen", item: "https://www.elektro-börner.ch/dienstleistungen" },
+    { "@type": "ListItem", position: 3, name: "Kontrollen", item: "https://www.elektro-börner.ch/dienstleistungen/kontrollen" },
   ],
 };
 

@@ -22,7 +22,7 @@ Betschwanden, Glarus, Näfels, Schwanden, Linthal, Netstal, Oberurnen, Mollis un
 - Adresse: Bahnhofstrasse 4, 8777 Betschwanden
 - Telefon: +41 55 550 32 65
 - E-Mail: elektro_boerner@bluewin.ch
-- Website: https://www.elektro-boerner.ch
+- Website: https://www.elektro-börner.ch
 
 ## Qualifikationen
 
@@ -35,7 +35,7 @@ Betschwanden, Glarus, Näfels, Schwanden, Linthal, Netstal, Oberurnen, Mollis un
 
 ## Weitere Informationen
 
-- [Alle Dienstleistungen](https://www.elektro-boerner.ch/dienstleistungen)
-- [Über Stefan Börner](https://www.elektro-boerner.ch/ueber-mich)
-- [Kontakt](https://www.elektro-boerner.ch/kontakt)
-- [Detaillierte Informationen](https://www.elektro-boerner.ch/llms-full.txt)
+- [Alle Dienstleistungen](https://www.elektro-börner.ch/dienstleistungen)
+- [Über Stefan Börner](https://www.elektro-börner.ch/ueber-mich)
+- [Kontakt](https://www.elektro-börner.ch/kontakt)
+- [Detaillierte Informationen](https://www.elektro-börner.ch/llms-full.txt)

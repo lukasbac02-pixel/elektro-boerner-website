@@ -5,7 +5,7 @@ import { CONTACT } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Impressum",
   description: `Impressum der ${CONTACT.company}, ${CONTACT.address.full}.`,
-  alternates: { canonical: "https://www.elektro-boerner.ch/impressum" },
+  alternates: { canonical: "https://www.elektro-börner.ch/impressum" },
 };
 
 export default function ImpressumPage() {

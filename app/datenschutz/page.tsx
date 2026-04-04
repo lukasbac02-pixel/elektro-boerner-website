@@ -5,7 +5,7 @@ import { CONTACT } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Datenschutzerklärung",
   description: `Datenschutzerklärung der ${CONTACT.company}. Informationen zum Umgang mit Ihren personenbezogenen Daten.`,
-  alternates: { canonical: "https://www.elektro-boerner.ch/datenschutz" },
+  alternates: { canonical: "https://www.elektro-börner.ch/datenschutz" },
 };
 
 export default function DatenschutzPage() {
