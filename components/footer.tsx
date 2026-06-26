@@ -102,17 +102,11 @@ export default function Footer() {
                 Datenschutz
               </Link>
             </div>
-            <p>
-              © {new Date().getFullYear()} {CONTACT.company}. Alle Rechte
-              vorbehalten.
-            </p>
-          </div>
-          <div className="mt-6 flex justify-center md:justify-end">
             <a
               href="https://innoframe.ch"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 text-xs text-gray-500 transition-colors hover:text-white"
+              className="group inline-flex items-center gap-2 transition-colors hover:text-white"
             >
               <span>Website Design by</span>
               <Image
@@ -120,9 +114,13 @@ export default function Footer() {
                 alt="innoframe"
                 width={2048}
                 height={463}
-                className="h-3 w-auto opacity-60 transition-opacity group-hover:opacity-100"
+                className="h-3.5 w-auto opacity-70 transition-opacity group-hover:opacity-100"
               />
             </a>
+            <p>
+              © {new Date().getFullYear()} {CONTACT.company}. Alle Rechte
+              vorbehalten.
+            </p>
           </div>
         </div>
       </div>
