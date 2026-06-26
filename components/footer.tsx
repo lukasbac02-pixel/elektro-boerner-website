@@ -107,6 +107,23 @@ export default function Footer() {
               vorbehalten.
             </p>
           </div>
+          <div className="mt-6 flex justify-center md:justify-end">
+            <a
+              href="https://innoframe.ch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 text-xs text-gray-500 transition-colors hover:text-white"
+            >
+              <span>Website Design by</span>
+              <Image
+                src="/innoframe-wordmark-2048.png"
+                alt="innoframe"
+                width={2048}
+                height={463}
+                className="h-3 w-auto opacity-60 brightness-0 invert transition-opacity group-hover:opacity-100"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
