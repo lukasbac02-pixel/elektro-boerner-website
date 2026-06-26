@@ -116,11 +116,11 @@ export default function Footer() {
             >
               <span>Website Design by</span>
               <Image
-                src="/innoframe-wordmark-2048.png"
+                src="/innoframe-wordmark-light-2048.png"
                 alt="innoframe"
                 width={2048}
                 height={463}
-                className="h-3 w-auto opacity-60 brightness-0 invert transition-opacity group-hover:opacity-100"
+                className="h-3 w-auto opacity-60 transition-opacity group-hover:opacity-100"
               />
             </a>
           </div>
